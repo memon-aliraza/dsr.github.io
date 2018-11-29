@@ -2,4 +2,19 @@
 title: "Data Science with R"
 ---
 
-Hello, Website!
+Team Eur-Lex
+
+13 November 2018
+Project title: Multi-label classification of legal text documents
+
+Project GitHub URL
+
+https://github.com/suhitaghosh10/EurLexClassification.git
+
+Names of team members
+
+* Ali Raza Memon
+* Majed Ali
+* Noor Jamaludeen
+* Suhita Ghosh
+

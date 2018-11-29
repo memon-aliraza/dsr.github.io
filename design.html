@@ -68,7 +68,7 @@ h6 {
 }
 </style>
 
-<link rel="stylesheet" href="styles.css" type="text/css" />
+<link rel="stylesheet" href="style.css" type="text/css" />
 
 </head>
 
@@ -219,7 +219,30 @@ $(document).ready(function () {
 </div>
 
 
-<p>Hello, Website!</p>
+<p>Statistical exploration :</p>
+<ul>
+<li>Basic exploration - distribution of attributes/labels</li>
+<li>Multi-label specific exploration- labelset distribution, relationship among labels, and relationship between attributes and labels/labelsets</li>
+</ul>
+<p>Pre-processing :</p>
+<ul>
+<li>Exclude stop words, perform stemming or lemmatization.</li>
+<li>Extract features - term frequency–inverse document frequency(tf-idf) and term incidence.</li>
+<li>Generate the MLD [1] data format, which is needed for multi label data exploration and classification using mldr[2] and utiml[3] packages .</li>
+<li><p>Apply (atleast) the following classifiers over the preprocessed dataset.</p></li>
+<li>IBk (Nearest Neighbour)</li>
+<li>RandomForest</li>
+<li><p>SVM</p></li>
+</ul>
+<p>The following evaluation measures cab be used to assess the multilabel predictive performance:</p>
+<ul>
+<li>Accuracy</li>
+<li>Hamming Loss</li>
+<li>Average Precision and Recall</li>
+<li>Coverage</li>
+<li>Ranking Loss</li>
+</ul>
+<p>Compare the accuracies of the state-of-the-art classifiers on this dataset, for two languages.</p>
 
 <p>Copyright &copy; 2019 Data Science with R.</p>
 

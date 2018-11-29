@@ -2,4 +2,8 @@
 title: "Dataset Overview"
 ---
 
-Hello, Website!
+Multilingual Eurovoc thesaurus descriptors are used by a large number of European Parliaments and Documentation Centres to manually index their large document collections. The assigned descriptors are then used to search and retrieve documents in the collection and to summarise the document contents for the users.
+
+## The EuroVoc Thesaurus
+
+The EuroVoc thesaurus was developed by the European Parliament (EP), in collaboration with the EU Publications Office (OP) and several national organisations for the indexing (cataloguing / classification / categorisation) of document collections in several languages.

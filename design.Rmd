@@ -2,5 +2,28 @@
 title: "Design Overview"
 ---
 
-Hello, Website!
+Statistical exploration :
 
+* Basic exploration - distribution of attributes/labels
+* Multi-label specific exploration- labelset distribution, relationship among labels, and relationship between attributes and labels/labelsets
+
+Pre-processing :
+
+* Exclude stop words, perform stemming or lemmatization.
+* Extract features - term frequency–inverse document frequency(tf-idf) and term incidence.
+* Generate the MLD [1] data format, which is needed for multi label data exploration and classification using mldr[2] and utiml[3] packages .
+* Apply (atleast) the following classifiers over the preprocessed dataset.
+
+* IBk (Nearest Neighbour)
+* RandomForest
+* SVM
+
+The following evaluation measures cab be used to assess the multilabel predictive performance:
+
+* Accuracy
+* Hamming Loss
+* Average Precision and Recall
+* Coverage
+* Ranking Loss
+
+Compare the accuracies of the state-of-the-art classifiers on this dataset, for two languages.
