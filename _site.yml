@@ -1,0 +1,26 @@
+name: "Data Science with R"
+navbar:
+  title: "Data Science with R"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Motivation"
+      href: motivation.html
+    - text: "Objectives"
+      href: objectives.html
+    - text: "Dataset"
+      href: dataset.html
+    - text: "Design Overview"
+      href: design.html
+    - text: "Timeline"
+      href: timeline.html
+    - text: "About"
+      href: about.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: styles.css
+output_dir: "."
